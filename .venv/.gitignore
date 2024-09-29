@@ -1,0 +1,24 @@
+# created by virtualenv automatically
+# Python-specific files
+.pytest_cache/
+__pycache__/
+nosetests.xml
+coverage.xml
+.coverage
+
+# FastAPI-specific files
+.env
+.env.dev
+.env.prod
+.env.test
+
+# Generated files
+/build/
+/dist/
+*.egg-info/
+
+# IDE-specific files
+*.pyc
+*.pyo
+*.swp
+*.DS_Store
